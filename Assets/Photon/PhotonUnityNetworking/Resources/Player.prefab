@@ -437,7 +437,7 @@ MonoBehaviour:
   damage: 10
   curAmmo: 20
   maxAmmo: 30
-  bulletSpeed: 100
+  bulletSpeed: 50
   shootRate: 1
   bulletPrefab: {fileID: 3710923122032001388, guid: 5e94304e3eaebe043b7d34e7c83df4ad, type: 3}
   bulletSpawnPos: {fileID: 6855403128619963129}
@@ -456,7 +456,7 @@ GameObject:
   - component: {fileID: 4575018880177860278}
   m_Layer: 0
   m_Name: MainCamera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

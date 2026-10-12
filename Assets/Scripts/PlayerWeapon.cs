@@ -43,7 +43,7 @@ public class PlayerWeapon : MonoBehaviour
     }
 
     [PunRPC]
-    void SpawnBullet(Vector3 pos, Vector3 dir)
+    public void SpawnBullet(Vector3 pos, Vector3 dir)
     {
         // spawn and orientate it
         GameObject bulletObj = Instantiate(bulletPrefab, pos, Quaternion.identity);
